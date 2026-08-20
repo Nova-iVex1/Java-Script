@@ -74,3 +74,120 @@
 // let isAdult = true;
 // console.log(isAdult);
 // console.log(typeof isAdult);
+
+
+
+//                                 ------->>>>  Operators  <<<<--------
+
+// I. ARITHEMATIC OPERATORS ->  + , - , * , / , ** , %
+
+// let num1 = 4;
+// let num2 = 2;
+
+// console.log(num1  +  num2);
+// console.log(num1  -  num2);
+// console.log(num1  *  num2);
+// console.log(num1  /  num2);
+// console.log(num1  ** num2);
+// console.log(num1  %  num2);
+
+// post-increment
+// let num = 45;
+// num++;
+// console.log(num);
+
+// post-decrement
+// let num = 45;
+// num--;
+// console.log(num);
+
+// pre-increment
+// let num = 45;
+// ++num;
+// console.log(num);
+
+// pre-decrement
+// let num = 45;
+// --num;
+// console.log(num);
+
+// let num = 45;
+// console.log(++num);  -> 46
+// console.log(num++);  -> 46
+
+// let num = 45;
+// console.log(num++);  -> 45
+// console.log(++num);  -> 47
+
+// let num = 45;
+// console.log(--num);  -> 44
+// console.log(num--);  -> 44
+// console.log(num);    -> 43
+
+
+// II. ASSIGNMENT OPERATORS  -> = , += ,  -= , *= , /= , %= , **= 
+
+// let num = 2;
+// num += 5;          // num = num + 5;
+// console.log(num);
+// num *= 2;          // num = num * 2;
+// console.log(num);
+// num -= 5;          // num = num - 2;
+// console.log(num);
+// num /= 9;          // num = num / 2;
+// console.log(num);
+// num **= 4;         // num = num ** 2;
+// console.log(num);
+// num %= 1;          // num = num % 2;
+// console.log(num);
+
+// let num = 2;
+// num =- 5;            // It is updation not assignment operator
+// console.log(num);
+
+
+// III. COMPARISON OPERATORS -> > , < , >= , <= , == , != , ===
+
+// const num1 = 3;
+// const num2 = 5;
+
+// console.log(3 > 6)
+// console.log(3 < 6)
+// console.log(3 >= 6)
+// console.log(6 <= 6)
+// console.log(3 == 6)
+// console.log(3 != 6)
+
+// loose equality
+// console.log("6" == 6)   -> true
+
+// strict equality
+// console.log("6" === 6)  -> false
+
+
+// IV. LOGICAL OPERATORS    --->    &&  ,  ||  ,  !
+
+// console.log(true && true)
+// console.log(true && false)
+// console.log(true || false)
+// console.log(false || true)
+// console.log(false || false)
+// console.log(!true)
+// console.log(!false)
+
+// const age = 20;
+// const hasID = true;
+// const canEnterClub = (age >= 18 && hasID === true);
+// console.log(canEnterClub);
+
+// console.log(!56);
+
+// console.log(!0);
+
+// console.log(!"")
+
+// falsy -> by default false
+// 0 , "" , null , undefined , NaN , false
+
+// console.log("Ayan" / 30);
+// console.log(typeof NaN);

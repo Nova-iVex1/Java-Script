@@ -212,3 +212,78 @@
 // let { price , avgRating , ...remaining } = product2
 
 // console.log(remaining);
+
+
+// let student = {
+//     name : "varad",
+//     rollNo : 34,
+//     subjects : ["Math" , "English" , "Hindi"]
+// }
+
+// let {subjects : vishay , ...variables}  =  student
+
+// console.log(vishay);
+
+// let {subjects : vishay , totalMarks = 500 ,  ...variables}  =  student
+
+// console.log(totalMarks);
+
+
+
+// object merging using spread
+// let obj1 = {
+//     name : "Ayan",
+//     number : 9876543210
+// }
+
+// let obj2 = {
+//     dddress : "india",
+//     adharCard : 9876543210,
+//     name : "Yash"
+// }
+
+// let obj3 = { ...obj1 , ...obj2 };
+
+// console.log(obj3);
+
+
+
+// array & object update 
+// uisng let we can update the whole string at once but using const we cant so we update one by one 
+
+// let arr = [1,2,3,4]
+// arr = "updated"
+// console.log(arr);
+
+// const arr1 = [1,2,3,4]
+// arr1[0] = "updated"
+// console.log(arr1);
+
+
+// same concept works on objects also 
+
+// let obj = {
+//     name : "Ayan",
+//     number : 9876543210
+// }
+// obj = {
+//     country : "india"
+// }
+// console.log(obj);
+
+
+// let obj = {
+//     name : "Ayan",
+//     number : 9876543210,
+//     address : null
+// }
+
+// obj["name"] = "sid"
+// obj.name = "ayan"
+
+// delete obj.number
+
+// console.log(obj);
+
+// console.log(obj?.address);
+// console.log(obj.address?.street);
